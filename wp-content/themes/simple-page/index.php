@@ -47,7 +47,7 @@
     </h2>
     <div class="bio">
       <div class="aboutImg">
-        <img src="./img/img_profile.png" alt="Natsumi Kobayashi" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/img_profile.png" alt="Natsumi Kobayashi" />
       </div>
       <div class="aboutSkill">
         <p>
@@ -199,17 +199,17 @@
             <a href="./wake-me-app.html" class="btn">View FULL design</a>
           </p>
           <!-- <a href="" target="_blank">
-            <img src="./img/btn_android.png" alt="GET IT ON Google Play" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
           </a> -->
         </div>
       </div>
       <div class="thumbnail">
-        <img src="./img/thumb_wakemeapp.png" alt="WakeMeApp" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
       </div>
     </div>
     <div class="works even">
       <div class="thumbnail">
-        <img src="./img/thumb_wakemeapp.png" alt="WakeMeApp" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
       </div>
       <div class="description">
         <p class="ttl">WakeMeApp</p>
@@ -228,7 +228,7 @@
             <a href="./wake-me-app.html" class="btn">View FULL design</a>
           </p>
           <a href="" target="_blank">
-            <img src="./img/btn_android.png" alt="GET IT ON Google Play" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
           </a>
         </div>
       </div>
