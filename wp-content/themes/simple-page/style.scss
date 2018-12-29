@@ -5,3 +5,313 @@ Version: 2.0
 Author: Natsumi Kobayashi
 Author URI: http://natsumikobayashi.com/
 */
+
+@charset "utf-8";
+
+// Variables
+$bigSpace: 120px 0;
+$normalSpace: 60px;
+
+body,
+section,
+div,
+nav,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+// html {
+//   // Only works on Chrome and Firefox
+//   scroll-behavior: smooth;
+// }
+
+body {
+  font-size: 15px;
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo,
+    Osaka, sans-serif;
+  color: #333;
+}
+
+section {
+  padding: $bigSpace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: $normalSpace;
+  span {
+    padding: 0 10px;
+    background: linear-gradient(transparent 60%, #F29364 60%);
+  }
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+#wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: #fff;
+  width: 180px;
+  padding: 16px 0;
+  text-align: center;
+  background: #F29364;
+}
+
+.addition {
+  color: #c00;
+}
+
+// Header
+header {
+  padding-top: $normalSpace;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    li + li {
+      margin-left: 30px;
+    }
+  }
+}
+
+// section#main
+#main {
+  text-align: left;
+  padding: 0;
+  .intro {
+    padding: $bigSpace;
+  }
+  .fa-hand-paper {
+    color: #FFC580;
+  }
+  strong {
+    font-size: 60px;
+  }
+  ul {
+    margin-top: $normalSpace;
+    display: flex;
+    li + li {
+      margin-left: 30px;
+    }
+    svg {
+      color: #fff;
+      width: 26px;
+      height: 26px;
+      padding: 11px;
+      background: #F29364;
+      border-radius: 50%;
+    }
+  }
+  .toDown {
+    height: 80px;
+    text-align: center;
+    position: relative;
+    a {
+      width: 30px;
+      height: 30px;
+      border-left: 1px solid #333;
+      border-bottom: 1px solid #333;
+      position: absolute;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-animation: sdb 2s infinite;
+      animation: sdb 2s infinite;
+    }
+  }
+  @-webkit-keyframes sdb {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+  @keyframes sdb {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+}
+
+// section#about
+#about {
+  padding: 100px 0;
+  background: #f0f0f0;
+  border: 20px solid #F29364;
+  .bio {
+    display: flex;
+  }
+  .aboutImg {
+    margin-right: $normalSpace;
+  }
+  .aboutSkill {
+    text-align: left;
+    line-height: 1.7;
+    li {
+      width: 19%;
+      display: inline-block;
+      .skill {
+        display: block;
+      }
+      .numbers {
+        width: 12px;
+        height: 12px;
+        background: #d8d8d8;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .numbers.better {
+        background: #666666;
+      }
+    }
+  }
+}
+
+// section#works
+.tag {
+  color: #ababab;
+  background: #f0f0f0;
+  padding: 5px 10px;
+}
+
+.tag + .tag {
+  margin-left: 15px;
+}
+
+.works {
+  display: table;
+  .description {
+    text-align: left;
+    display: table-cell;
+    .ttl {
+      font-size: 40px;
+      color: #F29364;
+      margin-bottom: $normalSpace;
+    }
+    .detail {
+      margin-top: $normalSpace;
+      margin-bottom: $normalSpace;
+      line-height: 1.7;
+    }
+    .btns {
+      display: table;
+      p {
+        display: table-cell;
+      }
+      p + a {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .btn {
+      margin-right: 30px;
+      display: block;
+    }
+  }
+  .thumbnail {
+    display: table-cell;
+    vertical-align: middle;
+    img {
+      width: 480px;
+    }
+  }
+}
+
+.works.odd .description,
+.works.even .thumbnail {
+  padding-right: 30px;
+}
+
+.works.odd .thumbnail,
+.works.even .description {
+  padding-left: 30px;
+}
+
+.works + .works {
+  margin-top: $normalSpace;
+}
+
+// section#contact
+#contact {
+  padding-top: 0;
+  padding-bottom: $normalSpace;
+  p {
+    line-height: 1.7;
+  }
+  .btn {
+    display: block;
+    margin: 60px auto;
+  }
+  ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  li + li {
+    margin-left: 30px;
+  }
+  svg {
+    color: #F29364;
+    width: 26px;
+    height: 26px;
+    padding: 9px;
+    background: #fff;
+    border: 2px solid #F29364;
+    border-radius: 50%;
+  }
+}
+
+// footer
+footer {
+  text-align: center;
+  padding-bottom: $normalSpace;
+}
