@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title><?php wp_title('|', true, 'right'); ?></title>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <?php wp_head(); ?>
   </head>
