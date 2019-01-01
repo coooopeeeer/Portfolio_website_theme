@@ -1,5 +1,3 @@
-console.log("Hello World");
-
 // smooth scroll
 jQuery(function () {
     jQuery('a[href^="#"]').click(function () {
