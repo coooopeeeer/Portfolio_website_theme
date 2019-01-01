@@ -1,11 +1,11 @@
 // smooth scroll
-jQuery(function ($) {
-    $('a[href^="#"]').click(function () {
+jQuery(function () {
+    jQuery('a[href^="#"]').click(function () {
         var speed = 1000;
-        var href = $(this).attr("href");
-        var target = $(href == "#" || href == "" ? 'html' : href);
+        var href = jQuery(this).attr("href");
+        var target = jQuery(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().top;
-        $('body, html').animate({ scrollTop: position }, speed, 'swing');
+        jQuery('body, html').animate({ scrollTop: position }, speed, 'swing');
         return false;
     });
 });
