@@ -1,5 +1,5 @@
 // smooth scroll
-$(function () {
+jQuery(function ($) {
     $('a[href^="#"]').click(function () {
         var speed = 1000;
         var href = $(this).attr("href");
