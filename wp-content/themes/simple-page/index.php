@@ -227,10 +227,10 @@
         </p>
         <!-- <div class="btns">
           <p>
-            <a href="./wake-me-app.html" class="btn">View FULL design</a>
+            <a href="./calorie-calculator.html" class="btn">View FULL design</a>
           </p>
           <a href="" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
           </a>
         </div> -->
       </div>
@@ -258,11 +258,11 @@
         </p>
         <!-- <div class="btns">
           <p>
-            <a href="./portfolio.html" class="btn">View FULL design</a>
+            <a href="./portfolio.html" class="btn">View FULL description</a>
           </p>
-          <a href="" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
-          </a>
+          <p>
+            <a href="https://github.com/coooopeeeer/Portfolio_website_theme" target="_blank">See on Github</a>
+          </p>
         </div> -->
       </div>
       <div class="thumbnail">
