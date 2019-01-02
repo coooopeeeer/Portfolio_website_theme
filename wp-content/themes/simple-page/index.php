@@ -243,6 +243,40 @@
         </div> -->
       </div>
     </div>
+    <div class="works odd">
+      <div class="description">
+        <p class="ttl">My Portfolio</p>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">Wordpress</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+        </div>
+        <div class="tags">
+          <span class="tag">Sass/Scss</span>
+          <span class="tag">PHP</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">jQuery</span>
+          <span class="tag">MAMP</span>
+        </div>
+        <p class="detail">
+          This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
+          Wordpress theme which is made by me.
+        </p>
+        <!-- <div class="btns">
+          <p>
+            <a href="./portfolio.html" class="btn">View FULL design</a>
+          </p>
+          <a href="" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
+          </a>
+        </div> -->
+      </div>
+      <div class="thumbnail">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_portfolio.png" alt="Portfolio" />
+      </div>
+    </div>
   </div>
 </section>
 <section id="contact">
