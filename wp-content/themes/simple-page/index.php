@@ -181,11 +181,13 @@
     <div class="works odd">
       <div class="description">
         <p class="ttl">WakeMeApp</p>
-        <span class="tag">design</span>
-        <span class="tag">Sketch</span>
-        <span class="tag">mobile</span>
-        <span class="tag">app</span>
-        <span class="tag">Android</span>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">mobile</span>
+          <span class="tag">app</span>
+          <span class="tag">Android</span>
+        </div>
         <p class="detail">
           WakeMeApp is Android application for those who are often late for school, work and anything you should be there before or
           on time. This app lets you wake up on time and be able to check if your friends get up or oversleep.
@@ -194,14 +196,14 @@
           <br>
           <span class="addition">Coming soon on Google Play store!</span>
         </p>
-        <div class="btns">
+        <!-- <div class="btns">
           <p>
             <a href="./wake-me-app.html" class="btn">View FULL design</a>
           </p>
-          <!-- <a href="" target="_blank">
+          <a href="" target="_blank">
             <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
-          </a> -->
-        </div>
+          </a>
+        </div> -->
       </div>
       <div class="thumbnail">
         <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
@@ -209,28 +211,36 @@
     </div>
     <div class="works even">
       <div class="thumbnail">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_portfolio.png" alt="Portfolio" />
       </div>
       <div class="description">
-        <p class="ttl">WakeMeApp</p>
-        <span class="tag">mobile</span>
-        <span class="tag">app</span>
-        <span class="tag">design</span>
-        <span class="tag">Android</span>
+        <p class="ttl">My Portfolio</p>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">Wordpress</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+        </div>
+        <div class="tags">
+          <span class="tag">Sass/Scss</span>
+          <span class="tag">PHP</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">jQuery</span>
+          <span class="tag">MAMP</span>
+        </div>
         <p class="detail">
-          WakeMeApp is Android application for those who are often late for school, work and anything you should be there before or
-          on time. This app lets you wake up on time and be able to check if your friends get up or sleep over.
-          <br />
-          <strong>NEVER let anyone call you a SLEEPY HEAD!</strong>
+          This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
+          Wordpress theme which is made by me.
         </p>
-        <div class="btns">
+        <!-- <div class="btns">
           <p>
             <a href="./wake-me-app.html" class="btn">View FULL design</a>
           </p>
           <a href="" target="_blank">
             <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
