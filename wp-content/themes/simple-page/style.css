@@ -220,6 +220,10 @@ header ul li + li {
   background: #666666;
 }
 
+.tags + .tags {
+  margin-top: 20px;
+}
+
 .tag {
   color: #ababab;
   background: #f0f0f0;

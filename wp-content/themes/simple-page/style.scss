@@ -217,6 +217,10 @@ header {
 }
 
 // section#works
+.tags + .tags {
+  margin-top: 20px;
+}
+
 .tag {
   color: #ababab;
   background: #f0f0f0;
