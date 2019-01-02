@@ -211,27 +211,19 @@
     </div>
     <div class="works even">
       <div class="thumbnail">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_portfolio.png" alt="Portfolio" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_caloriecalculator.png" alt="Calorie Calculator" />
       </div>
       <div class="description">
-        <p class="ttl">My Portfolio</p>
+        <p class="ttl">Calorie Calculator</p>
         <div class="tags">
           <span class="tag">design</span>
           <span class="tag">Sketch</span>
-          <span class="tag">Wordpress</span>
-          <span class="tag">HTML5</span>
-          <span class="tag">CSS3</span>
-        </div>
-        <div class="tags">
-          <span class="tag">Sass/Scss</span>
-          <span class="tag">PHP</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">jQuery</span>
-          <span class="tag">MAMP</span>
+          <span class="tag">mobile</span>
+          <span class="tag">app</span>
+          <span class="tag">iOS</span>
         </div>
         <p class="detail">
-          This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
-          Wordpress theme which is made by me.
+          Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
         </p>
         <!-- <div class="btns">
           <p>
@@ -262,7 +254,7 @@
         </div>
         <p class="detail">
           This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
-          Wordpress theme which is made by me.
+          Wordpress theme which is made by myself.
         </p>
         <!-- <div class="btns">
           <p>
