@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <?php wp_head(); ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132343481-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-132343481-1');
+    </script>
   </head>
   <body <?php body_class(); ?>>
     <header>
