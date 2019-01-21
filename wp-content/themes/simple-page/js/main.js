@@ -9,3 +9,21 @@ jQuery(function () {
         return false;
     });
 });
+
+
+// header fixed
+var _window = $(window),
+    _header = $('header'),
+    mainBottom;
+
+_window.on('scroll', function () {
+    mainBottom = $('#main').height();
+    if (_window.scrollTop() > mainBottom) {
+        _header.addClass('fix');
+    }
+    else {
+        _header.removeClass('fix');
+    }
+});
+
+_window.trigger('scroll');
