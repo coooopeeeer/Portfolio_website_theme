@@ -15,22 +15,22 @@
       <ul>
         <li>
           <a href="https://dribbble.com/coooopeeeer" target="_blank">
-            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-dribbble" title="Dribbble"></i>
           </a>
         </li>
         <li>
           <a href="https://github.com/coooopeeeer" target="_blank">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github" title="Github"></i>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/miminashi_design/" target="_blank">
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram" title="Instagram"></i>
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/coooopeeeer/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin-in" title="Linkedin"></i>
           </a>
         </li>
       </ul>
@@ -281,27 +281,27 @@
       <br />I’m currently looking for a job position as a web designer / front-end developer.
       <br />Please contact me and I will get back to you as soon as possible!
     </p>
-    <a href="mailto:miminashicooper@gmail.com" class="btn">DROP ME A LINE :)</a>
+    <a href="mailto:miminashicooper@gmail.com" class="btn"><i class="far fa-envelope"></i>DROP ME A LINE</a>
     <p>You can also find me on following SNS!</p>
     <ul>
       <li>
         <a href="https://dribbble.com/coooopeeeer" target="_blank">
-          <i class="fab fa-dribbble"></i>
+          <i class="fab fa-dribbble" title="Dribbble"></i>
         </a>
       </li>
       <li>
         <a href="https://github.com/coooopeeeer" target="_blank">
-          <i class="fab fa-github"></i>
+          <i class="fab fa-github" title="Github"></i>
         </a>
       </li>
       <li>
         <a href="https://www.instagram.com/miminashi_design/" target="_blank">
-          <i class="fab fa-instagram"></i>
+          <i class="fab fa-instagram" title="Instagram"></i>
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/coooopeeeer/" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-linkedin-in" title="Linkedin"></i>
         </a>
       </li>
     </ul>

@@ -294,23 +294,26 @@ header {
   .btn {
     display: block;
     margin: 60px auto;
+    svg {
+      margin-right: 10px;
+    }
   }
   ul {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    svg {
+      color: #F29364;
+      width: 26px;
+      height: 26px;
+      padding: 9px;
+      background: #fff;
+      border: 2px solid #F29364;
+      border-radius: 50%;
+    }
   }
   li + li {
     margin-left: 30px;
-  }
-  svg {
-    color: #F29364;
-    width: 26px;
-    height: 26px;
-    padding: 9px;
-    background: #fff;
-    border: 2px solid #F29364;
-    border-radius: 50%;
   }
 }
 

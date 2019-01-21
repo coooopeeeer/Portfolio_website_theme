@@ -310,17 +310,17 @@ header ul li + li {
   margin: 60px auto;
 }
 
+#contact .btn svg {
+  margin-right: 10px;
+}
+
 #contact ul {
   margin-top: 30px;
   display: flex;
   justify-content: center;
 }
 
-#contact li + li {
-  margin-left: 30px;
-}
-
-#contact svg {
+#contact ul svg {
   color: #F29364;
   width: 26px;
   height: 26px;
@@ -328,6 +328,10 @@ header ul li + li {
   background: #fff;
   border: 2px solid #F29364;
   border-radius: 50%;
+}
+
+#contact li + li {
+  margin-left: 30px;
 }
 
 footer {
