@@ -198,7 +198,7 @@
         </p>
         <!-- <div class="btns">
           <p>
-            <a href="./wake-me-app.html" class="btn">View FULL design</a>
+            <a href="./projects/wake-me-app/" class="btn">View FULL design</a>
           </p>
           <a href="" target="_blank">
             <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
