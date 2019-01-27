@@ -348,3 +348,38 @@ footer {
   text-align: center;
   padding-bottom: 60px;
 }
+
+@media screen and (max-width: 750px) {
+  section {
+    padding: 40px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 1.7;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  #main {
+    padding: 40px;
+  }
+  #main .intro {
+    padding: 0 0 40px;
+  }
+  #main strong {
+    font-size: 30px;
+  }
+  #main ul {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  #main ul li + li {
+    margin-left: 0;
+  }
+  #main .toDown {
+    height: 40px;
+  }
+}

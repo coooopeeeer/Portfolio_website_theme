@@ -336,5 +336,40 @@ footer {
 
 // Responsive
 @media screen and (max-width: 750px) {
+  section {
+    padding: 40px;
+  }
 
+  h1 {
+    font-size: 30px;
+    line-height: 1.7;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  header {
+    display: none;
+  }
+
+  #main {
+    padding: 40px;
+    .intro {
+      padding: 0 0 40px;
+    }
+    strong {
+      font-size: 30px;
+    }
+    ul {
+      margin-top: 20px;
+      justify-content: space-between;
+      li + li {
+        margin-left: 0;
+      }
+    }
+    .toDown {
+      height: 40px;
+    }
+  }
 }
