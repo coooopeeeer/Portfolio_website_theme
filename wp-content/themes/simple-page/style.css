@@ -357,6 +357,10 @@ footer {
     font-size: 30px;
     line-height: 1.7;
   }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
   #wrapper {
     width: 100%;
   }
@@ -367,7 +371,7 @@ footer {
     padding: 40px;
   }
   #main .intro {
-    padding: 0 0 40px;
+    padding: 0 0 20px;
   }
   #main strong {
     font-size: 30px;
@@ -381,5 +385,72 @@ footer {
   }
   #main .toDown {
     height: 40px;
+  }
+  #about {
+    padding: 30px;
+    border-width: 10px;
+  }
+  #about .bio {
+    display: block;
+  }
+  #about .aboutImg {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  #about .aboutImg img {
+    width: 100%;
+  }
+  #about .aboutSkill li {
+    width: 49%;
+  }
+  .works {
+    display: block;
+  }
+  .works .description {
+    display: block;
+  }
+  .works .description .ttl {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .works .description .tags {
+    display: none;
+  }
+  .works .description .detail {
+    margin: 40px 0;
+  }
+  .works .thumbnail {
+    display: block;
+  }
+  .works .thumbnail img {
+    width: 100%;
+  }
+  .works.odd .description,
+  .works.even .thumbnail {
+    padding-right: 0;
+  }
+  .works.odd .thumbnail,
+  .works.even .description {
+    padding-left: 0;
+  }
+  .works + .works {
+    margin-top: 40px;
+  }
+  #contact {
+    padding-bottom: 40px;
+  }
+  #contact .btn {
+    margin: 40px auto;
+    width: 100%;
+  }
+  #contact ul {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  #contact li + li {
+    margin-left: 0;
+  }
+  footer {
+    padding-bottom: 40px;
   }
 }

@@ -345,6 +345,11 @@ footer {
     line-height: 1.7;
   }
 
+  h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
   #wrapper {
     width: 100%;
   }
@@ -356,7 +361,7 @@ footer {
   #main {
     padding: 40px;
     .intro {
-      padding: 0 0 40px;
+      padding: 0 0 20px;
     }
     strong {
       font-size: 30px;
@@ -371,5 +376,79 @@ footer {
     .toDown {
       height: 40px;
     }
+  }
+
+  #about {
+    padding: 30px;
+    border-width: 10px;
+    .bio {
+      display: block;
+    }
+    .aboutImg {
+      margin-right: 0;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+    .aboutSkill li {
+      width: 49%;
+    }
+  }
+
+  .works {
+    display: block;
+    .description {
+      display: block;
+      .ttl {
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      .tags {
+        display: none;
+      }
+      .detail {
+        margin: 40px 0;
+      }
+    }
+    .thumbnail {
+      display: block;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .works.odd .description,
+  .works.even .thumbnail {
+    padding-right: 0;
+  }
+
+  .works.odd .thumbnail,
+  .works.even .description {
+    padding-left: 0;
+  }
+
+  .works + .works {
+    margin-top: 40px;
+  }
+
+  #contact {
+    padding-bottom: 40px;
+    .btn {
+      margin: 40px auto;
+      width: 100%;
+    }
+    ul {
+      margin-top: 20px;
+      justify-content: space-between;
+    }
+    li + li {
+      margin-left: 0;
+    }
+  }
+
+  footer {
+    padding-bottom: 40px;
   }
 }
