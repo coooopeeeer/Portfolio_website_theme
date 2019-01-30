@@ -102,6 +102,10 @@ a:hover {
   color: #c00;
 }
 
+.mobile {
+  display: none !important;
+}
+
 // Header
 header {
   padding-top: $normalSpace;
@@ -354,6 +358,14 @@ footer {
     width: 100%;
   }
 
+  .mobile {
+    display: block !important;
+  }
+
+  .pc {
+    display: none;
+  }
+
   header {
     display: none;
   }
@@ -396,7 +408,7 @@ footer {
     }
   }
 
-  .works {
+  .works.mobile {
     display: block;
     .description {
       display: block;

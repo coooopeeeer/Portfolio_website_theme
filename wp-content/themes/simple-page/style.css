@@ -90,6 +90,10 @@ a:hover {
   color: #c00;
 }
 
+.mobile {
+  display: none !important;
+}
+
 header {
   padding-top: 60px;
   width: 100%;
@@ -364,6 +368,12 @@ footer {
   #wrapper {
     width: 100%;
   }
+  .mobile {
+    display: block !important;
+  }
+  .pc {
+    display: none;
+  }
   header {
     display: none;
   }
@@ -403,26 +413,26 @@ footer {
   #about .aboutSkill li {
     width: 49%;
   }
-  .works {
+  .works.mobile {
     display: block;
   }
-  .works .description {
+  .works.mobile .description {
     display: block;
   }
-  .works .description .ttl {
+  .works.mobile .description .ttl {
     font-size: 30px;
     margin-bottom: 0;
   }
-  .works .description .tags {
+  .works.mobile .description .tags {
     display: none;
   }
-  .works .description .detail {
+  .works.mobile .description .detail {
     margin: 40px 0;
   }
-  .works .thumbnail {
+  .works.mobile .thumbnail {
     display: block;
   }
-  .works .thumbnail img {
+  .works.mobile .thumbnail img {
     width: 100%;
   }
   .works.odd .description,
