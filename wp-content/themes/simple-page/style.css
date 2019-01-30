@@ -417,8 +417,8 @@ footer {
     display: block;
   }
   .description .ttl {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
   }
   .description .thumbnail {
     display: block;
@@ -430,7 +430,7 @@ footer {
     display: none;
   }
   .description .detail {
-    margin: 20px 0;
+    margin: 20px 0 !important;
   }
   .works.odd .description,
   .works.even .thumbnail {

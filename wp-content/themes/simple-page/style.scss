@@ -411,8 +411,8 @@ footer {
   .description {
     display: block;
     .ttl {
-      font-size: 30px;
-      margin-bottom: 20px;
+      font-size: 30px !important;
+      margin-bottom: 20px !important;
     }
     .thumbnail {
       display: block;
@@ -424,7 +424,7 @@ footer {
       display: none;
     }
     .detail {
-      margin: 20px 0;
+      margin: 20px 0 !important;
     }
   }
 
