@@ -408,26 +408,23 @@ footer {
     }
   }
 
-  .works.mobile {
+  .description {
     display: block;
-    .description {
-      display: block;
-      .ttl {
-        font-size: 30px;
-        margin-bottom: 0;
-      }
-      .tags {
-        display: none;
-      }
-      .detail {
-        margin: 40px 0;
-      }
+    .ttl {
+      font-size: 30px;
+      margin-bottom: 20px;
     }
     .thumbnail {
       display: block;
       img {
         width: 100%;
       }
+    }
+    .tags {
+      display: none;
+    }
+    .detail {
+      margin: 20px 0;
     }
   }
 

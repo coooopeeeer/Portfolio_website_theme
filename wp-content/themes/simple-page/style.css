@@ -413,27 +413,24 @@ footer {
   #about .aboutSkill li {
     width: 49%;
   }
-  .works.mobile {
+  .description {
     display: block;
   }
-  .works.mobile .description {
-    display: block;
-  }
-  .works.mobile .description .ttl {
+  .description .ttl {
     font-size: 30px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
-  .works.mobile .description .tags {
+  .description .thumbnail {
+    display: block;
+  }
+  .description .thumbnail img {
+    width: 100%;
+  }
+  .description .tags {
     display: none;
   }
-  .works.mobile .description .detail {
-    margin: 40px 0;
-  }
-  .works.mobile .thumbnail {
-    display: block;
-  }
-  .works.mobile .thumbnail img {
-    width: 100%;
+  .description .detail {
+    margin: 20px 0;
   }
   .works.odd .description,
   .works.even .thumbnail {
