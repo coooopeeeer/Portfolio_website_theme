@@ -355,7 +355,7 @@
         </p>
         <!-- <div class="btns">
           <p>
-            <a href="./portfolio.html" class="btn">View FULL detail</a>
+            <a href="./portfolio.html" class="btn">View FULL description</a>
           </p>
           <p>
             <a href="https://github.com/coooopeeeer/Portfolio_website_theme" target="_blank">See on Github</a>
