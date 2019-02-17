@@ -86,6 +86,10 @@ a:hover {
   background: #F29364;
 }
 
+.btn svg {
+  margin-right: 10px;
+}
+
 .addition {
   color: #c00;
 }
@@ -326,10 +330,6 @@ header.fix {
 #contact .btn {
   display: block;
   margin: 60px auto;
-}
-
-#contact .btn svg {
-  margin-right: 10px;
 }
 
 #contact ul {

@@ -96,6 +96,9 @@ a:hover {
   padding: 16px 0;
   text-align: center;
   background: #F29364;
+  svg {
+    margin-right: 10px;
+  }
 }
 
 .addition {
@@ -311,9 +314,6 @@ header.fix {
   .btn {
     display: block;
     margin: 60px auto;
-    svg {
-      margin-right: 10px;
-    }
   }
   ul {
     margin-top: 30px;
