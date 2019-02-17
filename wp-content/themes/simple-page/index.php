@@ -198,6 +198,8 @@
         <p class="detail">
           This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
           Wordpress theme which is made by myself.
+          <br>
+          You can check my coding skills from the button below!
         </p>
         <div class="btns">
           <!-- <p>
@@ -236,15 +238,17 @@
         <p class="detail">
           This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
           Wordpress theme which is made by myself.
+          <br>
+          You can check my coding skills from the button below!
         </p>
-        <!-- <div class="btns">
-          <p>
+        <div class="btns">
+          <!-- <p>
             <a href="./portfolio.html" class="btn">View FULL description</a>
-          </p>
+          </p> -->
           <p>
-            <a href="https://github.com/coooopeeeer/Portfolio_website_theme" target="_blank">See on Github</a>
+          <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" class="btn github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>See on Github</a>
           </p>
-        </div> -->
+        </div>
       </div>
     </div><!-- End div.works -->
     <div class="works even pc">
