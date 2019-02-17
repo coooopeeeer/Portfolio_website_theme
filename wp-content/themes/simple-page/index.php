@@ -180,122 +180,6 @@
     </h2>
     <div class="works odd pc">
       <div class="description">
-        <p class="ttl">WakeMeApp</p>
-        <div class="tags">
-          <span class="tag">design</span>
-          <span class="tag">Sketch</span>
-          <span class="tag">mobile</span>
-          <span class="tag">app</span>
-          <span class="tag">Android</span>
-        </div>
-        <p class="detail">
-          WakeMeApp is Android application for those who are often late for school, work and anything you should be there before or
-          on time. This app lets you wake up on time and be able to check if your friends get up or oversleep.
-          <br />
-          <strong>NEVER let anyone call you a SLEEPY HEAD!</strong>
-          <br>
-          <span class="addition">Coming soon on Google Play store!</span>
-        </p>
-        <!-- <div class="btns">
-          <p>
-            <a href="./projects/wake-me-app/" class="btn">View FULL design</a>
-          </p>
-          <a href="" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
-          </a>
-        </div> -->
-      </div>
-      <div class="thumbnail">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
-      </div>
-    </div>
-    <!-- mobile ver, hidden on pc -->
-    <div class="works odd mobile">
-      <div class="description">
-        <p class="ttl">WakeMeApp</p>
-        <div class="thumbnail">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
-        </div>
-        <div class="tags">
-          <span class="tag">design</span>
-          <span class="tag">Sketch</span>
-          <span class="tag">mobile</span>
-          <span class="tag">app</span>
-          <span class="tag">Android</span>
-        </div>
-        <p class="detail">
-          WakeMeApp is Android application for those who are often late for school, work and anything you should be there before or
-          on time. This app lets you wake up on time and be able to check if your friends get up or oversleep.
-          <br />
-          <strong>NEVER let anyone call you a SLEEPY HEAD!</strong>
-          <br>
-          <span class="addition">Coming soon on Google Play store!</span>
-        </p>
-        <!-- <div class="btns">
-          <p>
-            <a href="./projects/wake-me-app/" class="btn">View FULL design</a>
-          </p>
-          <a href="" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
-          </a>
-        </div> -->
-      </div>
-    </div>
-    <div class="works even pc">
-      <div class="thumbnail">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_caloriecalculator.png" alt="Calorie Calculator" />
-      </div>
-      <div class="description">
-        <p class="ttl">Calorie Calculator</p>
-        <div class="tags">
-          <span class="tag">design</span>
-          <span class="tag">Sketch</span>
-          <span class="tag">mobile</span>
-          <span class="tag">app</span>
-          <span class="tag">iOS</span>
-        </div>
-        <p class="detail">
-          Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
-        </p>
-        <!-- <div class="btns">
-          <p>
-            <a href="./calorie-calculator.html" class="btn">View FULL design</a>
-          </p>
-          <a href="" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
-          </a>
-        </div> -->
-      </div>
-    </div>
-    <!-- mobile ver, hidden on pc -->
-    <div class="works even mobile">
-      <div class="description">
-        <p class="ttl">Calorie Calculator</p>
-        <div class="thumbnail">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_caloriecalculator.png" alt="Calorie Calculator" />
-        </div>
-        <div class="tags">
-          <span class="tag">design</span>
-          <span class="tag">Sketch</span>
-          <span class="tag">mobile</span>
-          <span class="tag">app</span>
-          <span class="tag">iOS</span>
-        </div>
-        <p class="detail">
-          Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
-        </p>
-        <!-- <div class="btns">
-          <p>
-            <a href="./calorie-calculator.html" class="btn">View FULL design</a>
-          </p>
-          <a href="" target="_blank">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
-          </a>
-        </div> -->
-      </div>
-    </div>
-    <div class="works odd pc">
-      <div class="description">
         <p class="ttl">My Portfolio</p>
         <div class="tags">
           <span class="tag">design</span>
@@ -327,7 +211,7 @@
       <div class="thumbnail">
         <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_portfolio.png" alt="Portfolio" />
       </div>
-    </div>
+    </div><!-- End div.works -->
     <!-- mobile ver, hidden on pc -->
     <div class="works odd mobile">
       <div class="description">
@@ -362,7 +246,123 @@
           </p>
         </div> -->
       </div>
-    </div>
+    </div><!-- End div.works -->
+    <div class="works even pc">
+      <div class="thumbnail">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_caloriecalculator.png" alt="Calorie Calculator" />
+      </div>
+      <div class="description">
+        <p class="ttl">Calorie Calculator</p>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">mobile</span>
+          <span class="tag">app</span>
+          <span class="tag">iOS</span>
+        </div>
+        <p class="detail">
+          Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
+        </p>
+        <!-- <div class="btns">
+          <p>
+            <a href="./calorie-calculator.html" class="btn">View FULL design</a>
+          </p>
+          <a href="" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
+          </a>
+        </div> -->
+      </div>
+    </div><!-- End div.works -->
+    <!-- mobile ver, hidden on pc -->
+    <div class="works even mobile">
+      <div class="description">
+        <p class="ttl">Calorie Calculator</p>
+        <div class="thumbnail">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_caloriecalculator.png" alt="Calorie Calculator" />
+        </div>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">mobile</span>
+          <span class="tag">app</span>
+          <span class="tag">iOS</span>
+        </div>
+        <p class="detail">
+          Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
+        </p>
+        <!-- <div class="btns">
+          <p>
+            <a href="./calorie-calculator.html" class="btn">View FULL design</a>
+          </p>
+          <a href="" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
+          </a>
+        </div> -->
+      </div>
+    </div><!-- End div.works -->
+    <div class="works odd pc">
+      <div class="description">
+        <p class="ttl">WakeMeApp</p>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">mobile</span>
+          <span class="tag">app</span>
+          <span class="tag">Android</span>
+        </div>
+        <p class="detail">
+          WakeMeApp is Android application for those who are often late for school, work and anything you should be there before or
+          on time. This app lets you wake up on time and be able to check if your friends get up or oversleep.
+          <br />
+          <strong>NEVER let anyone call you a SLEEPY HEAD!</strong>
+          <br>
+          <span class="addition">Coming soon on Google Play store!</span>
+        </p>
+        <!-- <div class="btns">
+          <p>
+            <a href="./projects/wake-me-app/" class="btn">View FULL design</a>
+          </p>
+          <a href="" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
+          </a>
+        </div> -->
+      </div>
+      <div class="thumbnail">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
+      </div>
+    </div><!-- End div.works -->
+    <!-- mobile ver, hidden on pc -->
+    <div class="works odd mobile">
+      <div class="description">
+        <p class="ttl">WakeMeApp</p>
+        <div class="thumbnail">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_wakemeapp.png" alt="WakeMeApp" />
+        </div>
+        <div class="tags">
+          <span class="tag">design</span>
+          <span class="tag">Sketch</span>
+          <span class="tag">mobile</span>
+          <span class="tag">app</span>
+          <span class="tag">Android</span>
+        </div>
+        <p class="detail">
+          WakeMeApp is Android application for those who are often late for school, work and anything you should be there before or
+          on time. This app lets you wake up on time and be able to check if your friends get up or oversleep.
+          <br />
+          <strong>NEVER let anyone call you a SLEEPY HEAD!</strong>
+          <br>
+          <span class="addition">Coming soon on Google Play store!</span>
+        </p>
+        <!-- <div class="btns">
+          <p>
+            <a href="./projects/wake-me-app/" class="btn">View FULL design</a>
+          </p>
+          <a href="" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/btn_android.png" alt="GET IT ON Google Play" />
+          </a>
+        </div> -->
+      </div>
+    </div><!-- End div.works -->
   </div>
 </section>
 <section id="contact">
