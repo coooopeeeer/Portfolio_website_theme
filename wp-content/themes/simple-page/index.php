@@ -315,14 +315,14 @@
           This is my portfolio website. I created it mainly using HTML5, CSS3 and JavaScript at first, then I converted it to original
           Wordpress theme which is made by myself.
         </p>
-        <!-- <div class="btns">
-          <p>
+        <div class="btns">
+          <!-- <p>
             <a href="./portfolio.html" class="btn">View FULL description</a>
-          </p>
+          </p> -->
           <p>
-            <a href="https://github.com/coooopeeeer/Portfolio_website_theme" target="_blank">See on Github</a>
+            <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" target="_blank" rel="noopener noreferrer">See on Github</a>
           </p>
-        </div> -->
+        </div>
       </div>
       <div class="thumbnail">
         <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_portfolio.png" alt="Portfolio" />
