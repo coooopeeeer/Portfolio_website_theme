@@ -320,7 +320,7 @@
             <a href="./portfolio.html" class="btn">View FULL description</a>
           </p> -->
           <p>
-            <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" class="btn" target="_blank" rel="noopener noreferrer">See on Github</a>
+            <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" class="btn github" target="_blank" rel="noopener noreferrer">See on Github</a>
           </p>
         </div>
       </div>
