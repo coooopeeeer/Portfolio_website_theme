@@ -341,6 +341,50 @@ footer {
 }
 
 
+// Detail page
+main {
+  padding-top: 80px;
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #F29364;
+  }
+}
+
+section#projectsInfo {
+  padding-top: $normalSpace;
+  padding-bottom: 0;
+  line-height: 1.7;
+}
+
+section#projectsDetail {
+  .page + .page {
+    margin-top: 120px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  ul {
+    li {
+      width: 30%;
+      display: inline-block;
+      img {
+        width: 100%;
+        box-shadow: 0 0 12px 0 rgba(170,170,170,0.5);
+      }
+    }
+    li + li {
+      margin-left: 40px;
+    }
+  }
+  p {
+    margin-top: $normalSpace;
+  }
+}
+
+
 // Responsive
 @media screen and (max-width: 750px) {
   section {

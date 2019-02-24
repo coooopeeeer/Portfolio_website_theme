@@ -357,6 +357,50 @@ footer {
   padding-bottom: 60px;
 }
 
+main {
+  padding-top: 80px;
+}
+
+main h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background: #F29364;
+}
+
+section#projectsInfo {
+  padding-top: 60px;
+  padding-bottom: 0;
+  line-height: 1.7;
+}
+
+section#projectsDetail .page + .page {
+  margin-top: 120px;
+}
+
+section#projectsDetail h2 {
+  font-size: 30px;
+}
+
+section#projectsDetail ul li {
+  width: 30%;
+  display: inline-block;
+}
+
+section#projectsDetail ul li img {
+  width: 100%;
+  box-shadow: 0 0 12px 0 rgba(170, 170, 170, 0.5);
+}
+
+section#projectsDetail ul li + li {
+  margin-left: 40px;
+}
+
+section#projectsDetail p {
+  margin-top: 60px;
+}
+
 @media screen and (max-width: 750px) {
   section {
     padding: 40px;
