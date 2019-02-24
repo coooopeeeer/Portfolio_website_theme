@@ -516,4 +516,22 @@ section#projectsDetail {
   footer {
     padding-bottom: 40px;
   }
+
+  main {
+    padding-top: 0;
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  section#projectsDetail {
+    li {
+      width: 100% !important;
+      display: block !important;
+    }
+    li + li {
+      margin-top: 40px;
+      margin-left: 0 !important;
+    }
+  }
 }
