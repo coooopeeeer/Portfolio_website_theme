@@ -202,9 +202,9 @@
           You can check my coding skills from the button below!
         </p>
         <div class="btns">
-          <!-- <p>
-            <a href="./portfolio.html" class="btn">View FULL description</a>
-          </p> -->
+          <p>
+            <a href="<?php echo home_url('/sample-page'); ?>" class="btn">View FULL design</a>
+          </p>
           <p>
             <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" class="btn github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>See on Github</a>
           </p>
