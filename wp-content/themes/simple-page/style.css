@@ -483,6 +483,12 @@ section#projectsDetail p {
   .description .detail {
     margin: 20px 0 !important;
   }
+  .description .btns {
+    display: block !important;
+  }
+  .description .btns p {
+    display: block !important;
+  }
   .works.odd .description,
   .works.even .thumbnail {
     padding-right: 0;
