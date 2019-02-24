@@ -202,9 +202,9 @@
           You can check my coding skills from the button below!
         </p>
         <div class="btns">
-          <p>
+          <!-- <p>
             <a href="<?php echo home_url('/index.php/sample-page/'); ?>" class="btn">View FULL design</a>
-          </p>
+          </p> -->
           <p>
             <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" class="btn github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>See on Github</a>
           </p>
@@ -242,9 +242,9 @@
           You can check my coding skills from the button below!
         </p>
         <div class="btns">
-          <p>
+          <!-- <p>
             <a href="<?php echo home_url('/index.php/sample-page/'); ?>" class="btn">View FULL design</a>
-          </p>
+          </p> -->
           <p>
           <a href="https://github.com/coooopeeeer/Portfolio_website_theme/tree/master/wp-content/themes/simple-page" class="btn github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>See on Github</a>
           </p>
@@ -267,14 +267,14 @@
         <p class="detail">
           Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
         </p>
-        <div class="btns">
+        <!-- <div class="btns">
           <p>
             <a href="<?php echo home_url('/index.php/sample-page/'); ?>" class="btn">View FULL design</a>
           </p>
-          <!-- <a href="" target="_blank">
+          <a href="" target="_blank">
             <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
-          </a> -->
-        </div>
+          </a>
+        </div> -->
       </div>
     </div><!-- End div.works -->
     <!-- mobile ver, hidden on pc -->
@@ -294,14 +294,14 @@
         <p class="detail">
           Calorie Calculator is iOS application to calculate how many calories you can take in a day. The user is either a person who wants to lose weight (ME xD) or a person who wants to gain weight.<br><span class="addition">Coming soon on Apple store!</span>
         </p>
-        <div class="btns">
+        <!-- <div class="btns">
           <p>
             <a href="<?php echo home_url('/index.php/sample-page/'); ?>" class="btn">View FULL design</a>
           </p>
-          <!-- <a href="" target="_blank">
+          <a href="" target="_blank">
             <img src="<?php echo get_template_directory_uri(); ?>/images/btn_apple.png" alt="Download on the App Store" />
-          </a> -->
-        </div>
+          </a>
+        </div> -->
       </div>
     </div><!-- End div.works -->
     <div class="works odd pc">
